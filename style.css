@@ -1,0 +1,100 @@
+html{
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+#input-wrapper {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-container{
+    min-width: 30%;
+}
+
+.input-field{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0 0;
+}
+
+.input-field label{
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+#input-wrapper button{
+    margin: 10px 0 0 0;
+    width: 450px;
+    font-size: 1.2em;
+}
+
+#book-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#book-container{
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.book-card{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 7px 0px 7px;
+    /* border-radius: 70px 70px 70px 70px; */
+    border: 3px solid rgb(54, 117, 190);
+    padding: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgb(100, 100, 100);
+}
+
+.book-card p{
+    margin: 0px;
+}
+
+.book-card button {
+    margin-top: 1em;
+}
+
+hr.solid {
+    border-top: 2px solid rgb(105, 105, 105);
+    border-radius: 2px 2px 2px 2px;
+    width: 90%;
+}
+
+.book-img {
+    width: 80%;
+    margin-bottom: 1em;
+}
+
+button{
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(54, 117, 190);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border: 4px solid rgb(96, 156, 224);
+    color:aliceblue;
+}
+
+.title{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.author{
+    font-size: 1.1em;
+}
+
+.bold{
+    font-weight: bold;
+}
